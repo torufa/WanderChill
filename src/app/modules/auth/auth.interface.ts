@@ -7,3 +7,8 @@ export interface IRegisterUserPayload{
     role: Role;
     status : UserStatus
 }
+
+export interface ILoginUserPayload {
+    email: string;
+    password: string;
+}
